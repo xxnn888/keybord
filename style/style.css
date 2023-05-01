@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.body {
+    width: 94%;
+    /*height: 85vh;*/
+    /*background-color: #ccc;*/
+    margin: 50px auto;
+}
+
+.head {
+    width: 60%;
+    font-size: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    border: #dadada 1px solid;
+    line-height: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 22px 5px #dadada inset;
+    margin: 0 auto 30px;
+}
+
+.main-keybord {
+    padding: 10px;
+    border-radius: 26px;
+    background-color: #e8ecef;
+    border: 2px solid #c1c2c5;
+    box-shadow: 0 0 5px 1px #c1c2c5 inset;
+}
+
+.main-keybord-list {
+    display: flex;
+    justify-content: left;
+}
+
+.main-keybord ul {
+    margin: 10px;
+}
+
+.main-keybord-list li {
+    width: 40px;
+    height: 40px;
+    color: #847f78;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #e8ecef;
+    box-shadow: #c6c7cb 6px 6px 6px 1px, #ffffff -6px -6px 6px -1px;
+    border: #eaedef solid 1px;
+}
+
+.main-keybord-list li:hover {
+    cursor: pointer;
+}
+
+.main-keybord-list-item1 {
+    width: 25px !important;
+    visibility: hidden;
+    /*display: none;*/
+}
+
+.main-keybord-list-item2 {
+    width: 20px !important;
+    visibility: hidden;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.op {
+    width: 56px !important;
+}
+
+#main-keybord-list-item3 {
+    word-break: break-word;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.main-keybord-list1-item1 {
+    /*padding: 5px !important;*/
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-keybord-list1-item1 span {
+    width: 40px;
+    height: 20px;
+    align-items: center;
+    line-height: 20px;
+}
+
+.main-keybord-list1-item2 {
+    width: 88px !important;
+}
+
+.toright {
+    margin-right: 20px !important;
+}
+
+#main-keybord-list2-item3 {
+    word-break: break-word;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.main-keybord-list3-item1 {
+    width: 70px !important;
+}
+
+.main-keybord-list3-item2 {
+    width: 59px !important;
+}
+
+.SetFontSize {
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.main-keybord-list4-item1 {
+    width: 88px !important;
+}
+
+.main-keybord-list5-item1 {
+    width: 115px !important;
+}
+
+.main-keybord-list6-item1 {
+    width: 345px !important;
+}
+
+.width {
+    width: 91px !important;
+}
+
+.position {
+    position: relative;
+}
+
+.enter {
+    position: absolute;
+    right: 13px;
+    height: 91px !important;
+}
+
+.plus {
+    position: absolute;
+    right: 13px;
+    height: 91px !important;
+}
