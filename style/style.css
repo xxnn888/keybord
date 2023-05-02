@@ -153,12 +153,12 @@ ul, li {
 
 .enter {
     position: absolute;
-    right: 13px;
+    right: 0px;
     height: 91px !important;
 }
 
 .plus {
     position: absolute;
-    right: 13px;
+    right: 0px;
     height: 91px !important;
 }
