@@ -2,7 +2,10 @@
   <div>
     <myhead></myhead>
     <div
-        style="width: 100%;height: 77vh; display: flex;justify-content: center;align-content: center;">
+        style="width: 100%;height: 75vh;
+        display: flex;justify-content: center;
+        background:rgb(233 255 233);
+        align-content: center;">
       <div style="margin: auto">
         <p style="font-size: 40px">创意小工具</p>
         <button @click="tty">keybord</button>

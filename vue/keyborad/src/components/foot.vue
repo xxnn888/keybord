@@ -27,7 +27,7 @@ export default {
   font-size: 15px;
   width: 97%;
   padding: 15px;
-  background-color: #e0e0e0;
+  background-color: #f7f7f7;
   margin: 10px auto;
 }
 </style>
