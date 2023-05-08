@@ -230,7 +230,7 @@
           </li>
           <li class="width SetFontSize main-keybord-list1-item1"><span>0</span><span>lns</span></li>
           <li>.</li>
-          <li class="hidden">Enter</li>
+          <li>Enter</li>
         </ul>
       </div>
     </div>
@@ -280,7 +280,7 @@ ul, li {
 }
 
 .body {
-  width: 94%;
+  width: 1200px;
 //height: 100%;
   /*background-color: #ccc;*/
   margin: 50px auto;
@@ -419,20 +419,15 @@ ul, li {
   width: 91px !important;
 }
 
-.position {
-  position: relative;
-}
 
 .enter {
-  position: absolute;
-  right: 13px;
-  height: 91px !important;
+
+  height: 40px !important;
 }
 
 .plus {
-  position: absolute;
-  right: 13px;
-  height: 91px !important;
+
+  height: 40px !important;
 }
 
 </style>

@@ -14,7 +14,7 @@
     <div style="display: flex;">
       <p class="logo" style="color: #81ecff">By XuXiao</p>
     </div>
-    <div style="display: flex;">
+    <div style="display: flex;" @click="click">
       <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="24" height="24" focusable="false"
            viewbox="0 0 24 24"
            class="logo">
@@ -29,7 +29,12 @@
 
 <script>
 export default {
-  name: "myhead"
+  name: "myhead",
+  methods: {
+    click() {
+      window.open("https://github.com/xxnn888/keybord")
+    }
+  }
 }
 </script>
 
